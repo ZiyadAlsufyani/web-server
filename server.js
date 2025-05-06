@@ -4,7 +4,7 @@ const path = require('path');
 const { serveFile } = require('./utils/fileUtils');
 const { log } = require('./utils/logger');
 
-const PORT = 3000;
+const PORT = 80;
 
 const server = http.createServer((req, res) => {
   // Log the incoming request
